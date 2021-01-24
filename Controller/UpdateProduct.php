@@ -1,5 +1,5 @@
 <?php
-require_once "../../Tools/PDO.php";
+require_once __DIR__."/../Tools/PDO.php";
 if($_POST)
 {
 	$ID=$_POST["IDENTIFICADOR"];
@@ -72,6 +72,14 @@ if($_POST)
 	if($c==0)
 	{
 		$Q="INSERT INTO `wp_postmeta`(`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES (null,$ID,'_product_image_gallery','')";
+		$db->query($Q);
+	}
+
+	$Q = "DELETE from wp_term_relationships where object_id = '$ID'";
+	$db->query($Q);
+	foreach ($_POST['CATEGORIES'] as $category)  
+	{
+		$Q="INSERT INTO `wp_term_relationships`(`object_id`, `term_taxonomy_id`, `term_order`) VALUES ($ID,$category,0)";
 		$db->query($Q);
 	}
 	

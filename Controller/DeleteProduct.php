@@ -1,5 +1,5 @@
 <?php
-require_once "../../Tools/PDO.php";
+require_once __DIR__."/../Tools/PDO.php";
 if($_POST)
 {
 	$ID=$_POST["ID"];

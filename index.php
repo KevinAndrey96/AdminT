@@ -6,7 +6,7 @@ if($_SESSION["ActiveA"]==true)
         <script type="text/javascript">window.location.href = "dashboard.php"</script>
     <?php
 }
-require_once "../Tools/PDO.php";
+require_once "Tools/PDO.php";
 ?>
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
@@ -43,7 +43,7 @@ require_once "../Tools/PDO.php";
             <div class="login-content">
                 <div class="login-logo">
                     <a href="index.html">
-                        <img class="align-content" src="../Imagenes/logo.png" alt="">
+                        <img class="align-content" src="images/logo.png" alt="">
                     </a>
                 </div>
                 

@@ -2,7 +2,7 @@
 session_start();
 setlocale(LC_MONETARY,"es_CO");
 date_default_timezone_set("America/Bogota");
-require_once "../Tools/PDO.php";
+require_once __DIR__."/../Tools/PDO.php";
 if($_SESSION["ActiveA"]==false)
 {
     ?>

@@ -1,7 +1,7 @@
 <?php
 session_start();
-require_once "../../Tools/PDO.php";
-require_once "../../Tienda/wp-load.php";
+require_once __DIR__."/../Tools/PDO.php";
+require_once __DIR__."/../../wp-load.php";
 if($_POST)
 {
 	$USER=$_POST["USER"];
