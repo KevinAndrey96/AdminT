@@ -1,0 +1,28 @@
+[24-Apr-2020 21:06:40 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home3/disproar/public_html/AdminT/dashboard.php on line 32
+[25-Apr-2020 00:07:57 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/disproar/public_html/AdminT/dashboard.php:385
+Stack trace:
+#0 {main}
+  thrown in /home3/disproar/public_html/AdminT/dashboard.php on line 385
+[25-Apr-2020 00:08:03 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/disproar/public_html/AdminT/dashboard.php:385
+Stack trace:
+#0 {main}
+  thrown in /home3/disproar/public_html/AdminT/dashboard.php on line 385
+[25-Apr-2020 00:08:06 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/disproar/public_html/AdminT/dashboard.php:385
+Stack trace:
+#0 {main}
+  thrown in /home3/disproar/public_html/AdminT/dashboard.php on line 385
+[25-Apr-2020 00:08:28 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/disproar/public_html/AdminT/dashboard.php:385
+Stack trace:
+#0 {main}
+  thrown in /home3/disproar/public_html/AdminT/dashboard.php on line 385
+[25-Apr-2020 00:08:29 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/disproar/public_html/AdminT/dashboard.php:385
+Stack trace:
+#0 {main}
+  thrown in /home3/disproar/public_html/AdminT/dashboard.php on line 385
+[25-Apr-2020 00:08:31 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/disproar/public_html/AdminT/dashboard.php:385
+Stack trace:
+#0 {main}
+  thrown in /home3/disproar/public_html/AdminT/dashboard.php on line 385
+[25-Apr-2020 00:10:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home3/disproar/public_html/AdminT/dashboard.php on line 394
+[25-Apr-2020 02:53:17 America/Chicago] PHP Parse error:  syntax error, unexpected '$Q1' (T_VARIABLE) in /home3/disproar/public_html/AdminT/transactions.php on line 37
+[25-Apr-2020 02:53:50 America/Chicago] PHP Parse error:  syntax error, unexpected '$Q1' (T_VARIABLE) in /home3/disproar/public_html/AdminT/transactions.php on line 46
